@@ -6,6 +6,6 @@ Deployment: Docker
 
 TDD?
 Testing: 
-UI --- Selenium
-System --- Mocha?
-Unit --- not decided
+Client/UI --- Selenium
+Server --- Mocha?
+

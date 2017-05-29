@@ -1,5 +1,5 @@
-# EaseConnect
-A long-term date website project. 
+# Evol
+Find your love here
 
 Tech stack: React, Angular, node.js, MongoDB  
 Deployment: Docker

@@ -1,7 +1,9 @@
 # Evol
 Find your love here
 
-Tech stack: React, Angular, node.js, MongoDB  
+Tech stack: MEAN
+MongoDB, Express, AngularJS, node.js, 
+
 Deployment: Docker
 
 TDD

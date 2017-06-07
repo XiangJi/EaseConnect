@@ -1,1 +1,4 @@
-# tells bower where to put files, eg. public/libs
+
+{
+    "directory": "public/libs"
+}

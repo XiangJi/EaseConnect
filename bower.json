@@ -1,1 +1,25 @@
-#tekks bower which files we need
+{
+  "name": "evol ui lib",
+  "description": "ui libs",
+  "main": "server.js",
+  "authors": [
+    "Xiang Ji"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/XiangJi/Evol",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}

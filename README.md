@@ -3,7 +3,7 @@ Find your love here
 
 Tech stack: MEAN
 MongoDB(Performance NoSQL), Express(Lightweighted), AngularJS(Data binding, MVC, both unit and end-to-end test easy), node.js, 
-
+Use bootstrap for elegance
 Deployment: Docker
 
 TDD

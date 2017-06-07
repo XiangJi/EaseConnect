@@ -1,1 +1,26 @@
-# tells npm which packages we need
+{
+  "name": "evol",
+  "version": "1.0.0",
+  "description": "project package info",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiangJi/Evol.git"
+  },
+  "author": "Xiang Ji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiangJi/Evol/issues"
+  },
+  "homepage": "https://github.com/XiangJi/Evol#readme"
+}

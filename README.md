@@ -1,5 +1,5 @@
 # Evol
-Find your love here
+Find your love here, this is the beginning of best online date site/app
 
 Tech stack: MEAN
 MongoDB(Performance Not Only SQL), Express(Lightweighted), AngularJS, node.js
@@ -16,7 +16,7 @@ Directives
 
 Angular-only HTML attributes begins with : ng-
 
-module (model) 
+module (model)
 
 Controller for business logic, massage the data
 
@@ -44,12 +44,13 @@ local: 这个数据永远不会被复制，可以用来存储限于本地单台�
 config: 当Mongo用于分片设置时，config数据库在内部使用，用于保存分片的相关信息
 MongoDB中聚合(aggregate)主要用于处理数据(诸如统计平均值,求和等)，并返回计算后的数据结果。有点类似sql语句中的 count(*)。
 mongodump and mongorestore
-mongostat 
-Deployment: Docker
+mongostat
+
+Deployment: Docker (Docker is not leveraged at this point, this will be used for minimizing deployment and configuration efforts)
 
 TDD
 
-Testing: 
+Testing:
 Client/UI --- Selenium
 Server --- Mocha
 

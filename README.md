@@ -8,7 +8,7 @@ MongoDB(Performance Not Only SQL), Express(Lightweighted), AngularJS, node.js
 
 Use bootstrap for elegance
 
-AngularJS: Take the tutorial and arrange your here
+## AngularJS: 
 
 (Data binding, front endMVC, both unit and end-to-end test easy)
 
@@ -36,11 +36,57 @@ dependency injection, angular.module(demoapp, [] #here is the DI), view route to
 
 
 
+```html
+<!DOCTYPE html>
+<html>
+<script src= "http://cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script>
+<body ng-app="myApp" ng-controller="todoCtrl">
+
+<h2>我的备忘录</h2>
+
+<form ng-submit="todoAdd()">
+    <input type="text" ng-model="todoInput" size="50" placeholder="新增">
+    <input type="submit" value="新增">
+</form>
+
+<br>
+
+<div ng-repeat="x in todoList">
+    <input type="checkbox" ng-model="x.done"> <span ng-bind="x.todoText"></span>
+</div>
+
+<p><button ng-click="remove()">删除记录</button></p>
+
+<script>
+var app = angular.module('myApp', []); 
+app.controller('todoCtrl', function($scope) {
+    $scope.todoList = [{todoText:'Clean House', done:false}];
+
+    $scope.todoAdd = function() {
+        $scope.todoList.push({todoText:$scope.todoInput, done:false});
+        $scope.todoInput = "";
+    };
+
+    $scope.remove = function() {
+        var oldList = $scope.todoList;
+        $scope.todoList = [];
+        angular.forEach(oldList, function(x) {
+            if (!x.done) $scope.todoList.push(x);
+        });
+    };
+});
+</script>
+
+</body>
+</html>
+```
+
 ![âangular js moduleâçå¾çæç´¢ç»æ](https://aspblogs.blob.core.windows.net/media/dwahlin/Media/image_2D6D6780.png)
 
 ![âangular js moduleâçå¾çæç´¢ç»æ](https://aspblogs.blob.core.windows.net/media/dwahlin/Media/image_67C64CB0.png)
 
-MongoDB
+## MongoDB
+
 Sharding
 Using Map/Reduce
 Map和Reduce。Map函数调用emit(key,value)遍历集合中所有的记录，将key与value传给Reduce函数进行处理。
@@ -57,16 +103,39 @@ MongoDB中聚合(aggregate)主要用于处理数据(诸如统计平均值,求和
 mongodump and mongorestore
 mongostat
 
-Deployment: Docker (Docker is not leveraged at this point, this will be used for minimizing deployment and configuration efforts)
+Deployment: Docker (Docker is not leveraged at this point, this will be used for minimizing deployment and configuration efforts), 
 
-TDD
 
-Testing:
+
+## TDD Testing:
+
 Client/UI --- Selenium
 Server --- Mocha
+
+```javascript
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+  });
+});
+```
 
 Phase 1: Design note
 
 Phase 2: Implement
 
 Phase 3: Iteration and maintain
+
+## ExpressJS
+
+route
+
+```javascript
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+```
+

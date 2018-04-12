@@ -34,13 +34,11 @@ ng-bind for one way data binding
 
 dependency injection, angular.module(demoapp, [] #here is the DI), view route to different view, magic!
 
-![52398304378](C:\Users\xiangji\AppData\Local\Temp\1523983043786.png)
 
 
+![âangular js moduleâçå¾çæç´¢ç»æ](https://aspblogs.blob.core.windows.net/media/dwahlin/Media/image_2D6D6780.png)
 
-![52398353293](C:\Users\xiangji\AppData\Local\Temp\1523983532937.png)
-
-
+![âangular js moduleâçå¾çæç´¢ç»æ](https://aspblogs.blob.core.windows.net/media/dwahlin/Media/image_67C64CB0.png)
 
 MongoDB
 Sharding

@@ -12,9 +12,15 @@ AngularJS: Take the tutorial and arrange your here
 
 (Data binding, front endMVC, both unit and end-to-end test easy)
 
-Directives
+it's a full-featured SPA framework, with MVC, Data Binding, routing, testing, templates, history
 
-Angular-only HTML attributes begins with : ng-
+View- $scope-controller, scope is the glue,
+
+Directives: 
+
+Angular-only HTML attributes begins with : ng-app, ng-init, ng-repeat
+
+filter is like function, lowercase, currency
 
 module (model)
 
@@ -26,6 +32,13 @@ ng-model for two way data binding
 
 ng-bind for one way data binding
 
+dependency injection, angular.module(demoapp, [] #here is the DI), view route to different view, magic!
+
+![52398304378](C:\Users\xiangji\AppData\Local\Temp\1523983043786.png)
+
+
+
+![52398353293](C:\Users\xiangji\AppData\Local\Temp\1523983532937.png)
 
 
 

@@ -4,6 +4,7 @@ Find your love here, this is the beginning of best online date site/app
 Tech stack: MEAN
 MongoDB(Performance Not Only SQL), Express(Lightweighted), AngularJS, node.js
 
+Use docker for simplifying devops process, use docker image to setup all the components
 
 
 Use bootstrap for elegance
